@@ -1,0 +1,92 @@
+/* 
+    Created on : 18-dec-2015, 14:23:49
+    Author     : Steven
+*/
+
+/* 
+        Written by: 
+
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+
+         Used by Steven Buelens
+*/
+
+* { margin: 0; padding: 0; }
+html, body { height: 100%; overflow: hidden; background: #eee; }
+.measurementdivision{
+    height: 70% !important;
+    overflow: auto;
+}
+
+#page-wrap {
+    width: 100%; 
+    height: 100%;
+    position: relative;
+    
+}
+
+.info-col{float: left;}
+/*.info-col { float: left; width: 250px; height: 100%; padding: 50px 0 0 0; }*/
+/*.info-col h2 { text-align: center; font-weight: normal; padding: 25px 0; }*/
+
+.image { height: 100px; text-indent: -9999px; display: block; border-right: 1px solid white; }
+
+.bloodpressurePic { background: url(../../assets/images/Blood.JPG) center center no-repeat; }
+.weightPic { background: url(../../assets/images/Weight.JPG) center center no-repeat; }
+.oxygenPic { background: url(../../assets/images/Oxygen.JPG) center center no-repeat; }
+.activityPic { background: url(../../assets/images/Activity.JPG) center center no-repeat; }
+
+dt { padding: 5px; background: #900; color: black; border-bottom: 1px solid white; border-right: 1px solid white; font-size: 20px;}
+dd { position: absolute; left: -9999px; top: -9999px; background: #900; padding: 10px; color: white; border-right: 1px solid white; font-size: 18px;}
+dl { margin-bottom: 0px; }
+
+dt:nth-of-type(1) { background: #9dbdc6; }
+dd:nth-of-type(1) { background: #9dbdc6; }
+
+dt:nth-of-type(2) { background: #c0dbe2; }
+dd:nth-of-type(2) { background: #c0dbe2; }
+
+.curCol { -moz-box-shadow: 0 0 10px rgba(0,0,0,0.2); -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.2); z-index: 1; position: relative; }
+
+h2, .h2 {
+    font-size: 25px;
+    margin-bottom: -20px;
+}
+
+#blooddiv {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+a:hover, a:focus {
+    color: #23527c;
+    text-decoration: none;
+}
+a:active, a:hover {
+    outline: 0;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+}
+
+.button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#centerer {
+    padding-top: 5%;
+    margin: auto;
+    overflow: auto;
+}

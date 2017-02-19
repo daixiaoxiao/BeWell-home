@@ -1,0 +1,509 @@
+/*
+    GENERAL SETTINGS
+*/
+
+* {
+    border-radius: 0 !important;
+}
+
+.container{
+    width: 80%!important;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0 0 0 0 !important;
+    position: relative;
+    height: 80vh;
+}
+
+.lists{
+    position: static;
+    zoom: 1;
+    border-left-style: solid;
+    border-left-color: #9DBDC6;
+    border-left-width: 5px;
+    background-color: #FFFFFF;    
+}
+
+.smallitem{
+    font-size: 20px !important;
+    font-weight: normal;
+}
+
+.smalltitle{
+    padding: 1% 0 1% 1%;
+    margin: 0 0 0 0;
+    font-size: 25px;
+    color: #272F32;
+}
+
+.smalltext{
+    font-size: 17px;
+    padding-bottom: 2%;
+}
+
+.bigTitle{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.buttons{
+    background-color: #DAEAEF;
+    border: none;
+    color: black;
+    padding: 2px 5px 2px 5px;
+}
+
+.img{
+    width: auto;
+    height: auto; 
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.topMessage{
+    border-left-style: solid;
+    border-left-color: #9DBDC6;
+    border-left-width: 5px;
+    background-color: #FFFFFF;
+    margin: 0 0 1% 0;
+    padding: 0 1%;
+    font-size: 30px;
+}
+.tooltip-inner {
+    max-width: 350px;
+    /* If max-width does not work, try using width instead */
+    width: 350px; 
+}
+
+.modalbutton{
+    padding: 5px 10px 5px 10px;
+}
+
+/*
+    HOMESCREEN
+*/
+
+.tasklistbutton{
+    padding: 5% 0% 5% 0%;
+    border-right: none;
+    border-left: none;
+    border-width: 1px 0px 1px 0px;
+}
+
+.infoitem{
+    font-size: 18px;
+}
+
+.tasklistbutton:hover{
+    color: #FFFFFF;
+    background-color: #9DBDC6;
+    border-color: #9DBDC6;
+    border-width: 1px;
+}
+
+.donebutton:not(.nohover):hover{
+    border-color: #9DBDC6;
+    background-color: transparent;
+    color: #272F32;
+}
+
+.gotoitem{
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 0%;
+}
+
+#homeLeftSide{
+    float: left;
+}
+
+.todorow{
+    padding: 2% 2% 2% 2%;
+    list-style-type: none;
+}
+
+.donerow{
+    padding: 2% 2% 2% 2%;
+    list-style-type: none;
+}
+
+#homeRightSide{
+    float: right;
+    position: static; 
+    zoom: 1;
+    border-left-style: solid;
+    border-left-color: #9DBDC6;
+    border-left-width: 5px;
+    background-color: #FFFFFF;
+    padding: 0 0 0 0;
+    margin-top: 1%;
+}
+
+.tabtext{
+    color: black;
+    font-size: 16px;
+}
+
+.checkboximage{
+    width: 60%;
+    height: 60%;
+}
+
+.popover-content{
+    font-size: 20px !important;
+    
+}
+
+.popover{
+    width: 250px;
+    height: 120px;
+}
+
+.navgraphs{
+    padding-left: 0% ! important;
+}
+
+/*
+    MEASUREMENT
+*/
+
+.measurementdivision{
+    position: relative;  
+    background-color: #FFFFFF;
+    text-align:center;
+    color: black;
+    padding: 0 0 0 0;
+}
+
+nopink{
+    color: #272F32 !important;
+}
+
+.glyphicon-chevron-left{
+    color: #9DBDC6;
+}
+
+.glyphicon-chevron-right{
+    color: #9dbdc6;
+}
+
+.imgdivision{
+    max-width:200px;
+    max-height:100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+        opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.imgIcon{
+    max-height:20%;
+    max-width: 20%;
+/*    border-right-color: #9DBDC6;
+    border-right-width: 2px;
+    border-right-style: solid;*/
+/*    float: right;*/
+}
+#imgIconTitle{
+    margin-top: 2%;
+    float: bottom;
+    text-align: center;
+    padding: 0 0 0 0;
+}
+.bigIcon{
+    padding-bottom: 0px;
+    margin-bottom: 20px;/*
+    border-bottom-color: #9DBDC6;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;    */
+}
+
+.measurementcheckbutton{
+    position: relative;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px !important;
+}
+
+.measurementsubmitbutton{
+    position: relative;
+    height: 100%;
+    margin-top: 50px;
+    text-align:center;
+
+}
+.measurementsubmitbutton:hover .imgdivision{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.divider{
+    height: 1px;
+}
+
+/*
+    MEASUREMENT SUBCLASSES
+*/
+#dataTitle{
+    font-size: 24px;
+}
+.caption{
+    color: black;
+}
+
+.imgCarousel{
+    max-width:400px;
+    max-height:200px;
+    display: block;
+}
+
+#myCarousel{
+    width: 100%;
+    padding: 1% 0 0 0;
+    border-left-color: #9DBDC6;
+    border-left-width: 5px;
+    border-left-style: solid;
+    background-color: #FFFFFF;
+}
+#carinner{
+    width: 100%;
+}
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+.carousel-indicators li {
+    background-color: #DAEAEF;
+    height: 20px;
+    width: 20px;
+}
+.carousel-indicators .active {
+    background-color: #9DBDC6;
+    height: 20px;
+    width: 20px;
+}
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+    color: black;
+}
+
+.backtombutton{
+    margin-top: 1%;
+    clear:both;
+    float:right;
+    background-color: #FFFFFF;
+}
+
+/*
+    PAIN DIARY
+*/
+#submitPain{
+    float: right;
+}
+#painTitle{
+    margin-bottom: 1%;
+}
+
+#commentBox{
+    background-color: white;
+}
+#submitButton{
+/*    clear:left;*/
+    clear:both;
+    float:right;
+}
+
+#ex1Slider .slider-selection{
+    background: #9DBDC6;
+
+}
+
+#ex1Slider{
+    width: 100%;
+}
+.slider-handle{
+    background: #9DBDC6 !important;
+    border-right-color: black !important;
+    border-right-width: 2px !important;
+    border-left-color: black !important;
+    border-left-width: 2px !important;
+    border-top-color: black !important;
+    border-top-width: 2px !important;
+    border-bottom-color: black !important;
+    border-bottom-width: 2px !important;
+/*    background-color: white;*/
+}
+.slider-track{
+    width: 100%;
+}
+.slider-tick{
+    visibility: hidden;
+}
+.tooltip-inner{
+    width:100px;
+}
+
+#aboveEx1{
+    background-color: white;
+}
+
+textarea{
+    resize: none;
+}
+
+/*
+    SURVEY
+*/
+
+.surveyLayout{
+    padding-left: 0;
+}
+.paragraph{
+    padding: 1% 0 1% 1%;
+}
+
+.gohomebutton{
+    padding: 1% 0 1% 1%;
+}
+
+.answers{
+    padding: 0% 0 1% 2%;
+}
+
+.emptygohome{
+    margin-bottom: 1%;
+}
+
+/*
+    MESSAGES
+*/
+.floater{
+    padding-top: 1%;
+}
+
+.padderpart{
+    padding-top: 0% !important;
+}
+
+.btn-remover {
+  color: #272F32;
+  background-color: transparent;
+  border-color: transparent;
+  border-width: 1px; 
+  padding: 10px 10px 10px 10px;
+}
+
+/*
+    PROFILE
+*/
+.textprofilepatient{
+    padding-left: 0px;
+}
+.img-profilepage{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 50% !important;
+    height: 200px;
+}
+
+.img-assistent{
+    height: 50px;
+    border-radius: 50% !important;
+}
+
+.profile-heading{
+    text-align: center;
+    background: url("../images/BlueBackground.jpg");
+    background-size: cover;
+    margin-left: -5px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+}
+
+.profile-heading-text{
+    text-align: left;
+    color: white;
+    font-size: x-large;
+    padding-top: 70px;
+}
+
+.profile-body{
+    font-size: small;
+}
+
+.functionTitle{
+    font-size: large;
+}
+
+.titlePaddingTop{
+    padding-top: 15px;
+}
+
+/*
+    OLD PROFILE
+*/
+
+.profilepic{
+     width: 300px;
+     height: 300px;
+}
+
+/*
+END OLD PROFILE
+*/
+
+.padder{
+    padding-bottom: 4%;
+}
+
+#boxInputs{
+    border-left-color: #9DBDC6;
+    border-left-width: 5px;
+    border-left-style: solid;
+    background-color: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+}
+
+#testButton{
+    text-align: left;
+     font-size: 14px;
+}
+
+#submitButton{
+    float:right;
+    width: 50%;
+}
+
+#inputProfile{
+    padding-top: 0px;
+    margin-bottom: 2px;
+}
+
+#inputProfilePic {
+    padding-top: 0px;
+    margin-bottom: 2px;
+}
+
+#modalDiv{
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.modal-dialog {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+    HISTORY
+*/
+#graphHistory{
+    border-left-color: #9DBDC6;
+    border-left-width: 5px;
+    border-left-style: solid;
+    background-color: #FFFFFF;
+}

@@ -1,0 +1,234 @@
+
+body{
+    background: url('../images/LadyBackground.jpg')no-repeat center center fixed;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+#nameID{
+    width:90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 0 0 0 0;
+}
+#passID{
+    width:90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 0 0 0 0;
+}
+
+.container{
+    width: 20%;
+    min-width: 300px;
+    margin-left: 20%;
+    margin-right: 60%;
+    padding: 0 0 0 0;
+}
+p{
+    font-size: 30px;
+    line-height: 50%;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#middle{
+    width: 100%;
+    padding: 0 0 0 0;
+
+}
+#login{
+    /*font-family:"Montserrat", sans-serif;*/
+    font-size: 24px !important;
+    background-color: #9DBDC6;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90% !important;
+    font-size: 18px;
+}
+#message{
+    /*font-family:"Montserrat", sans-serif;*/
+    color: white;
+    padding-top: 10px;
+}
+#changePasswordBox{
+    width:90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 0 0 0 0;
+}
+
+#forgot{
+    padding: 0 0 0 0;
+    vertical-align:middle;
+    height: 30px;
+    background-color: rgba(63,63,63, 0);
+    text-align: right;
+    float: right;
+    display: inline-block;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    /*font-family:"Montserrat", sans-serif;*/
+    font-size: 18px;
+    color: rgba(255,255,255, 0.5);
+}
+#forgot:hover{
+    color: rgba(255,255,255, 1);
+
+}
+#buttons{
+    width: 100%;
+    padding: 0 0 0 0;
+}
+* {
+    border-radius: 0 !important;
+}
+#inputs{
+    width: 100%;
+    overflow: auto;
+    padding: 0 0 0 0;
+    background-color: rgba(63,63,63, 0.8);
+}
+#topPart{
+    width: 100%;
+    padding: 0 0 0 0;
+    margin-top: 15px;
+    height: 120px;
+}
+#leftBar{
+    height: 100%;
+}
+#rightBar{
+    height: 100%;
+}
+#topOfInputs{
+    height: 5px;
+}
+#checkbox{
+    /*font-family:"Montserrat", sans-serif;*/
+    color: white;
+    width:90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 0 0 0 0;
+}
+#remember_me_text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(255,255,255, 0.5);
+}
+#remember_me_text:hover{
+    color: rgba(255,255,255, 1);
+}
+.alert-danger{
+    background-color: rgba(242,222,222,1);
+    /*font-family:"Montserrat", sans-serif;*/
+    font-size: 24px !important;
+    color: rgba(63,63,63, 0.8);
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 56px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100% !important;
+    font-size: 18px;
+}
+.alert-info{
+    /*font-family:"Montserrat", sans-serif;*/
+    font-size: 24px !important;
+    background-color: #9DBDC6;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 56px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100% !important;
+    font-size: 18px;
+}
+
+#message{
+    /*font-family:"Montserrat", sans-serif;*/
+    color: white;
+}
+#changeConfirmPassword{
+    /*font-family:"Montserrat", sans-serif;*/
+    color: white;
+}
+#changePassword{
+    /*font-family:"Montserrat", sans-serif;*/
+    color: white;
+}
+#name{
+    /*font-family:"Montserrat", sans-serif;*/
+    background-color: rgba(255,255,255, 1);
+    color: black;
+}
+#password{
+    /*font-family:"Montserrat", sans-serif;*/
+    background-color: rgba(255,255,255, 1);
+    color: black;
+}
+#remember_me{
+    /*font-family:"Montserrat", sans-serif;*/
+    margin: 0 0 0 0;
+    height: 20px;
+    width: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+#welcomeText{
+    min-width: 300px; 
+    background-color: rgba(63,63,63, 0.8);
+    height: 45px;
+    color: white;
+    text-align: center;
+    /*font-family:"Montserrat", sans-serif;*/
+    font-size: 32px;
+/*    font-size: 2vmin;*/
+    display: table-cell;
+    vertical-align: middle;
+}
+#welcomeTextForgot{
+    min-width: 300px; 
+    background-color: rgba(63,63,63, 0.8);
+    height: 45px;
+    color: white;
+    text-align: center;
+    /*font-family:"Montserrat", sans-serif;*/
+    font-size: 32px;
+    display: table-cell;
+    vertical-align: middle;
+}
+#backToLogin{
+    padding: 0 0 0 0;
+    vertical-align:middle;
+    height: 30px;
+    background-color: rgba(63,63,63, 0);
+    text-align: right;
+    float: right;
+    display: inline-block;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    /*font-family:"Montserrat", sans-serif;*/
+    font-size: 18px;
+    color: rgba(255,255,255, 0.5);
+}
+#backToLogin:hover{
+    color: rgba(255,255,255, 1);
+    text-decoration: none;
+}
+
+#email{
+    /*font-family:"Montserrat", sans-serif;*/
+    background-color: rgba(255,255,255, 1);
+    color: black;
+}
